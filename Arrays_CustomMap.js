@@ -8,7 +8,8 @@ Array.prototype.myMap =function(callback){
 
     for(let i=0;i<this.length;i++){
       let val =this[i];
-      let rv =callback(val,i,this);
+      let rv =callback(val,i,this); //ye bar bar chalega callback jaise map ke ander aalag aalg values ke leuy callback  chalta tha
+                                   //and value received hogi rv main and return hoti jaegi sath sath
       res.push(rv);
     }
     return res;
