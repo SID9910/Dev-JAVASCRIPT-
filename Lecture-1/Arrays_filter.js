@@ -1,7 +1,7 @@
 //filter basically taab use karenge jaab humme aalag aalga chize karni ho
 //and ye true and false main kaam karta hai
 //jaise he true milli v then vo bss add kar dega new array main true ki value jo aai thi
-//only true vali
+//only true vali dega
 //its all also a callback like map
 
 //same parameter like map 
