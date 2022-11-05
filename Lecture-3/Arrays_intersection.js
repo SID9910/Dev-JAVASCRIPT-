@@ -1,12 +1,12 @@
 // let a1 =[10,20,30,40,50];
 // let a2 =[10,30,50];
 
-// //intersection
-// // 10,30,50
+// // //intersection
+// // // 10,30,50
 // console.log(a2.includes(80));//false
 // console.log(a2.includes(10));//true
 
-// //intersection
+// // //intersection
 // let intern =a1.filter(v =>a2.includes(v));
 // console.log(intern);
 
