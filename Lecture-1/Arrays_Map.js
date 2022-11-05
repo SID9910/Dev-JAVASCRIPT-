@@ -1,5 +1,5 @@
 //map is itself a function
-//map return a new arrasy equal in length to original array
+//map return a new array equal in length to original array
 //map takes as input a callback fn
 //the callback fn takes 3 parameter(v,i,arr)
 
@@ -39,54 +39,54 @@
 
 //question
 
-let arr =[
-    {
-        gender:'M',
-        age:34
+// let arr =[
+//     {
+//         gender:'M',
+//         age:34
 
-    },
-    {
-        gender:'F',
-        age:30
-    },
-    {
-        gender:'F',
-        age:12
-    },
-    {
-        gender:'M',
-        age:31
-    },
-    {
-        gender:'F',
-        age:12
-    },
-    {
-        gender:'M',
-        age:32
-    },
-    {
-        gender:'F',
-        age:30
-    }
-]
+//     },
+//     {
+//         gender:'F',
+//         age:30
+//     },
+//     {
+//         gender:'F',
+//         age:12
+//     },
+//     {
+//         gender:'M',
+//         age:31
+//     },
+//     {
+//         gender:'F',
+//         age:12
+//     },
+//     {
+//         gender:'M',
+//         age:32
+//     },
+//     {
+//         gender:'F',
+//         age:30
+//     }
+// ]
 
-let shortlist =arr.map(function(v,i,arr){
-    if(v.gender =='F'  && v.age>=20 && v.age<=30){
-        return true;
-    }else {
-        return false;
-    }
-});
+// let shortlist =arr.map(function(v,i,arr){
+//     if(v.gender =='F'  && v.age>=20 && v.age<=30){
+//         return true;
+//     }else {
+//         return false;
+//     }
+// });
 // console.log(shortlist);
 
 //map can be use like this also
-let s12 =arr.map((v,i,arr) =>v.gender =='F'  && v.age>=20 && v.age<=30 );
-console.log(s12);
+// let s12 =arr.map((v,i,arr) =>v.gender =='F'  && v.age>=20 && v.age<=30 );
+// console.log(s12);
 
-//map can also be use like this
+// //map can also be use like this
 
-let s2 =arr.map((v,i,arr)=>{
-    return  v.gender =='F'  && v.age>=20 && v.age<=30;
-});
-console.log(s2);
+// let s2 =arr.map((v,i,arr)=>{
+//     return  v.gender =='F'  && v.age>=20 && v.age<=30;
+// });
+// console.log(s2);

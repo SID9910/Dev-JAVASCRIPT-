@@ -2,10 +2,10 @@
 
  let arr=[
     {name:"A" ,age:14,gender:"M"},
-    {name:"B" ,age:24,gender:"F"},
+    {name:"B" ,age:44,gender:"F"},
     {name:"C" ,age:44,gender:"F"},
     {name:"D" ,age:14,gender:"M"},
-    {name:"E" ,age:28,gender:"F"},
+    {name:"E" ,age:68,gender:"F"},
     {name:"F" ,age:64,gender:"M"}
 ];
 //find  gives value against first true ,is there is no true then -1

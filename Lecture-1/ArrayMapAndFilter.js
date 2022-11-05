@@ -5,7 +5,6 @@ let product =[
     {name:"Monitor" ,price:200}
 ];
 
-//13 dec 1:10
 
 //kya karna hai bss 100 se barabar or jada valo name ko uppercase main karke print karna hai
 //using arrow
@@ -39,8 +38,8 @@ let product =[
 // console.log(res);
 
 //using arrow
-let res1 =product.map(v=>v.price>=100?v.name.toUpperCase():v.name.toLowerCase());
-console.log(res1);
+// let res1 =product.map(v=>v.price>=100?v.name.toUpperCase():v.name.toLowerCase());
+// console.log(res1);
 
 
 

@@ -21,7 +21,7 @@
 //     }
 // display1(arr1);
 // arr1.pop();
-// display(arr1);
+// display1(arr1);
 
 //3.push main dekhna arr[10] exist nhi karta so out 0f bound acception nhi aaegi
 //dekhna

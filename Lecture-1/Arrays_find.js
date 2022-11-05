@@ -3,7 +3,7 @@
  let arr=[
     {name:"A" ,age:14,gender:"M"},
     {name:"B" ,age:24,gender:"F"},
-    {name:"C" ,age:44,gender:"F"},
+    {name:"C" ,age:24,gender:"F"},
     {name:"D" ,age:14,gender:"M"},
     {name:"E" ,age:28,gender:"F"},
     {name:"F" ,age:64,gender:"M"}
@@ -20,7 +20,7 @@ let isAnyvalidcandidate =arr.find(function(v,i,ar){
     }
 });
 if(isAnyvalidcandidate!=-1){
-console.log(isAnyvalidcandidate.name+"@ "+isAnyvalidcandidate.age +"#"+isAnyvalidcandidate.gender);
+console.log(isAnyvalidcandidate.name+" @ "+isAnyvalidcandidate.age +" # "+isAnyvalidcandidate.gender);
 }else{
     console.log("not found");
 }

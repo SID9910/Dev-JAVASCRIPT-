@@ -6,7 +6,7 @@ let arr=[
     {name:"E" ,age:54,gender:"F"},
     {name:"F" ,age:64,gender:"M"}
 ]
-//some takes each value 1 by 1 nd returb a TRUE if every cb returns true
+//some takes each value 1 by 1 nd return a TRUE if every cb returns true
 //return false only if all cb return false
 
 //is there any valid candidate(f between 20 and 30)
