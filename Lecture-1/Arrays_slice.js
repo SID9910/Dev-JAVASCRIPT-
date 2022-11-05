@@ -1,4 +1,4 @@
-  //splice humme array ko jha se jha taak chaheye hota hai uske ley use hota hai 
+  //slice humme array ko jha se jha taak chaheye hota hai uske ley use hota hai 
   //basically shallow copy banata hai slice
 // let arr =[20,30,40,50];
 // function display(arr){
@@ -19,7 +19,7 @@
 // display(n6);
 
 //trick
-//dekhna donon main changes honge
+//dekhna dono main changes honge
 let arr1 =[20,30,40,50];
 //aaase excess karenge
 function display1(arr1){
@@ -30,7 +30,7 @@ function display1(arr1){
     console.log(str+".");
 }
 
-//using objects
+// //using objects
 let o1={
     age:100
 };
@@ -40,7 +40,7 @@ let o2={
 let o3={
     age:300
 };
-//original array main object use kar rahe hai
+// //original array main object use kar rahe hai
 let origarr =[o1,o2,o3];
 display1(origarr);
 
